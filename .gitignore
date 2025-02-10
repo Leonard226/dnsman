@@ -1,0 +1,17 @@
+# ignore compiled binaries
+dnsman
+*.o
+*.out
+*.a
+*.so
+
+# ignore build artifacts
+/build/
+/target/
+/*.dSYM
+
+# ignore editor/IDE files
+*.swp
+*.vscode/
+*.idea/
+*.DS_STORE
