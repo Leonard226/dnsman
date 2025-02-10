@@ -1,8 +1,8 @@
-<u><b>Project Title</u></b>: Dynamic Network Service Manager for Linux (`dnsman`)
+#### Dynamic Network Service Manager for Linux (`dnsman`)
 
-<b><u>Goal</u></b>: Develop a lightweight, containerized network service manager that integrates with `systemd`, dynamically handles IP assignments, manages sockets efficiently, and exposes network performance metrics via Prometheus. The project aims to provide a flexible, high-performance network management tool suitable for could environments and high-performance computing clusters. 
+**Goal**: Develop a lightweight, containerized network service manager that integrates with `systemd`, dynamically handles IP assignments, manages sockets efficiently, and exposes network performance metrics via Prometheus. The project aims to provide a flexible, high-performance network management tool suitable for could environments and high-performance computing clusters. 
 
-<u><b>Task Description</u></b>: Develop a **daemon (`dnsman`)** that runs as a `systemd` service and manages network interfaces and sockets dynamically. The daemon should:
+**Task Description**: Develop a **daemon (`dnsman`)** that runs as a `systemd` service and manages network interfaces and sockets dynamically. The daemon should:
 1. **Monitor and configure network interfaces**
     - Detect active interfaces (`eth0`, `wlan0`, `lo`, etc.)
     - Assign IP addresses (DHCP/static configuration via Netlink)
